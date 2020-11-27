@@ -73,3 +73,59 @@ body {
   display: block;
   margin-bottom: 60px;
 }
+
+.home_card.container {
+  margin-top: 110px;
+}
+
+.home_card_pink {
+  background: #e9204f;
+  color: #fff;
+  padding: 45px 40px 60px 40px;
+}
+
+.home_card_pink h3,
+.home_card_dark h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+
+.home_card_pink h3::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  display: block;
+  margin: 15px 0 25px 0;
+}
+
+.home_card_pink p,
+.home_card_dark p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.home_card_dark {
+  background: #1b1b1b;
+  color: #fff;
+  padding: 45px 40px 60px 40px;
+}
+
+.home_card_dark h3::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #e9204f;
+  display: block;
+  margin: 15px 0 25px 0;
+}
+
+.home_card div:nth-last-child()::before {
+  content: "";
+  background-color: #e9204f;
+  width: 314px;
+  height: 50px;
+}
