@@ -21,6 +21,21 @@ body {
   width: 100%;
 }
 
+.background_social {
+  background: #1b1b1b;
+  width: 100%;
+}
+
+.background_contact {
+  background: #161616;
+  width: 100%;
+}
+
+.background_footer {
+  background: #e9204f;
+  width: 100%;
+}
+
 .separator {
   width: 3px;
   height: 25px;
@@ -34,7 +49,7 @@ body {
 }
 
 .section_header h2::before {
-  content: '';
+  content: "";
   width: 50px;
   height: 3px;
   background: #e9204f;
@@ -183,16 +198,114 @@ body {
   font-weight: bold;
 }
 
-.services_separator.container {
-  padding: 60px 0;
+.services_separator.container,
+.works_separator.container {
+  padding-top: 40px;
 }
 
 /* Works */
 
 .works.container {
-  padding: 60px 0
+  padding: 60px 0;
 }
 
 .works img {
   max-width: 300px;
+}
+
+.works .grid-16 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Social */
+.social ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.social .social_network {
+  text-align: right;
+  padding: 75px 0;
+}
+
+.social .make_enquiry {
+  text-align: left;
+  padding: 85px 0;
+}
+
+/* Contact */
+.contact.container {
+  padding-top: 25px;
+}
+
+.contact .logo {
+  width: 98px;
+  margin: 0 auto;
+}
+
+.contact .logo::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: #e9204f;
+  display: block;
+  margin-top: 5px;
+}
+
+.contact ul {
+  text-align: center;
+  margin: 10px 0 25px 0;
+}
+
+.contact ul li {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.08em;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.contact ul li h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.contact ul li span {
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer.container {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.08em;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #1b1b1b;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-left: 20px;
+  float: right;
 }
