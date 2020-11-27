@@ -68,6 +68,32 @@ body {
   text-transform: uppercase;
 }
 
+.section_header_middle {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.section_header_middle h2 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.section_header_middle p {
+  color: #e9204f;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.soon {
+  padding-top: 40px;
+  color: #fff;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
 /* Header */
 
 .header {
@@ -199,7 +225,9 @@ body {
 }
 
 .services_separator.container,
-.works_separator.container {
+.works_separator.container,
+.about_separator.container,
+.blog_separator.container {
   padding-top: 40px;
 }
 
