@@ -305,7 +305,7 @@ body {
 }
 
 .footer ul li {
-  display: inline-block;
+  display: block;
   margin-left: 20px;
   float: right;
 }
