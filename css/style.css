@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border: #e9204f solid 3px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  border-color: #fff;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  top: 0;
+  padding-top: 60px;
+}
+
+.header_menu {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.header_menu ul li a {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header_menu ul li a:hover::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #e9204f;
+  display: block;
+  margin: 5px 0;
+}
+
+/* Home */
+.home {
+  text-align: left;
+}
+
+.home h1 {
+  margin: 120px 0 60px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.home h1::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: #e9204f;
+  display: block;
+  margin-bottom: 60px;
+}
