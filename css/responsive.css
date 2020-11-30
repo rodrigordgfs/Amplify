@@ -1,0 +1,34 @@
+/* Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
+
+/* Smartphone */
+@media only screen and (max-width: 787px) {
+    /* General Styles */
+    .button {
+        width: 100%;
+    }
+
+    /* Home */
+    .home h1 {
+        font-size: 80px;
+    }
+
+    /* Social */
+    .social .social_network {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .social h2 {
+        padding: 10px 0;
+    }
+
+    .social .make_enquiry {
+        text-align: center;
+        padding: 10px 0 20px 0;
+    }
+    
+
+    
+}
