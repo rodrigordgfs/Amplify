@@ -4,31 +4,70 @@
 
 /* Smartphone */
 @media only screen and (max-width: 787px) {
-    /* General Styles */
-    .button {
-        width: 100%;
-    }
+  /* General Styles */
+  .button {
+    width: 100%;
+  }
 
-    /* Home */
-    .home h1 {
-        font-size: 80px;
-    }
+  /* Header */
+  .header {
+    padding-bottom: 0;
+  }
 
-    /* Social */
-    .social .social_network {
-        text-align: center;
-        padding: 20px 0 0 0;
-    }
+  .header img {
+    margin: 0 auto 20px auto;
+  }
 
-    .social h2 {
-        padding: 10px 0;
-    }
+  .header_menu {
+    text-align: center;
+  }
 
-    .social .make_enquiry {
-        text-align: center;
-        padding: 10px 0 20px 0;
-    }
-    
+  .header_menu ul {
+    margin-top: -20px;
+  }
 
-    
+  .header_menu ul li {
+    margin-left: 0;
+  }
+
+  .header_menu ul li a {
+    border: 3px solid #e9204f;
+    padding: 5px;
+    width: 136px;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+
+  /* Home */
+  .home h1 {
+    font-size: 80px;
+    padding-top: 10px;
+  }
+
+  .home h1::before {
+    content: "";
+    width: 0;
+    height: 0;
+    background: #000;
+  }
+
+  /* Social */
+  .social .social_network {
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  .social h2 {
+    padding: 10px 0;
+  }
+
+  .social .make_enquiry {
+    text-align: center;
+    padding: 10px 0 20px 0;
+  }
 }
