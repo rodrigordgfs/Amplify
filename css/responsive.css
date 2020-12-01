@@ -68,6 +68,17 @@
     background: #000;
   }
 
+  /* Services */
+  .services_card {
+    background: #191919;
+    padding: 20px 20px 50px 20px;
+    margin-bottom: 20px;
+  }
+
+  .services_card p {
+    margin-top: 5px;
+  }
+
   /* Social */
   .social .social_network {
     text-align: center;
