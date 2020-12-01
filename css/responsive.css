@@ -102,4 +102,10 @@
   .footer ul li {
     margin-left: 20px;
   }
+
+  /* Contact */
+  .contact ul li {
+    display: block;
+    margin-left: 0px;
+  }
 }
