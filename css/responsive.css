@@ -100,7 +100,10 @@
   }
 
   .footer ul li {
-    margin-left: 20px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    float: none;
   }
 
   /* Contact */
