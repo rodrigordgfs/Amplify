@@ -82,4 +82,13 @@
     text-align: center;
     padding: 10px 0 20px 0;
   }
+
+  /* Footer */
+  .footer p {
+    text-align: center;
+  }
+
+  .footer ul li {
+    margin-left: 20px;
+  }
 }
