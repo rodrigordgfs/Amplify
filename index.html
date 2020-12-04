@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/simple-slide.css" />
+    <link rel="stylesheet" href="css/simple-anime.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
@@ -48,10 +50,12 @@
     </header>
 
     <section class="home container">
-      <h1 class="grid-16">We're a digital agency.</h1>
-      <a href="#" class="button">Getting Started</a>
+      <h1 data-anime="400" class="grid-16 fadeInDown">
+        We're a digital agency.
+      </h1>
+      <a data-anime="800" href="#" class="button fadeInDown">Getting Started</a>
     </section>
-    <section class="home_card container">
+    <section data-anime="1200" class="home_card container fadeInDown">
       <div class="grid-1-3 home_card_pink">
         <img src="assets/icons/business.svg" alt="Business Icon" />
         <h3>Future Vision.</h3>
@@ -295,5 +299,6 @@
     </footer>
   </body>
   <script src="js/simple-slide.js"></script>
+  <script src="js/simple-anime.js"></script>
   <script src="js/script.js"></script>
 </html>
