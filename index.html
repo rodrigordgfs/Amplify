@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Website developed to study HTML, CSS and JavaScritp.">
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <meta
+      name="description"
+      content="Website developed to study HTML, CSS and JavaScritp."
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -18,8 +25,10 @@
     />
     <title>Amplify - Digital Agency</title>
   </head>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
   <body>
-
     <!-- Menu -->
     <header class="header">
       <div class="container">
@@ -72,7 +81,7 @@
     <div class="background_secondary">
       <div class="container">
         <div class="separator"></div>
-      </div> 
+      </div>
       <section class="container">
         <div class="section_header grid-8">
           <h2 id="services">Services.</h2>
@@ -85,39 +94,39 @@
       <section class="services container">
         <div class="services_card grid-1-3">
           <p>Digitale strategy</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>UX Design</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>Product Desing</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>Content Strategy</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>Desing & Concept</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>Social Media</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>Media Planing</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>Branch Identity</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
         <div class="services_card grid-1-3">
           <p>SEO Optimization</p>
-          <img src="assets/icons/arrow.svg" alt="Arrow Service Card">
+          <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
       </section>
       <div class="services_separator container">
@@ -133,18 +142,39 @@
           <a href="#" class="button">View All</a>
         </div>
       </section>
-      <section class="works container">
-        <div class="grid-1-3">
-          <img src="assets/images/work-1.png" alt="Works images" />
+      <section class="works container" data-slide="works">
+        <div class="works_images">
+          <div class="grid-1-3">
+            <img src="assets/images/work-1.png" alt="Works images" />
+          </div>
+          <div class="grid-1-3">
+            <img src="assets/images/work-2.png" alt="Works images" />
+          </div>
+          <div class="grid-1-3">
+            <img src="assets/images/work-3.png" alt="Works images" />
+          </div>
         </div>
-        <div class="grid-1-3">
-          <img src="assets/images/work-2.png" alt="Works images" />
+        <div class="works_images">
+          <div class="grid-1-3">
+            <img src="assets/images/work-3.png" alt="Works images" />
+          </div>
+          <div class="grid-1-3">
+            <img src="assets/images/work-1.png" alt="Works images" />
+          </div>
+          <div class="grid-1-3">
+            <img src="assets/images/work-2.png" alt="Works images" />
+          </div>
         </div>
-        <div class="grid-1-3">
-          <img src="assets/images/work-3.png" alt="Works images" />
-        </div>
-        <div class="grid-16">
-          <img src="assets/icons/carousel.svg" alt="Carousel" />
+        <div class="works_images">
+          <div class="grid-1-3">
+            <img src="assets/images/work-2.png" alt="Works images" />
+          </div>
+          <div class="grid-1-3">
+            <img src="assets/images/work-3.png" alt="Works images" />
+          </div>
+          <div class="grid-1-3">
+            <img src="assets/images/work-1.png" alt="Works images" />
+          </div>
         </div>
       </section>
       <div class="works_separator container">
@@ -244,7 +274,7 @@
       </div>
     </div>
 
-    <div class="background_footer">
+    <footer class="background_footer">
       <div class="footer container">
         <div class="grid-8">
           <p>
@@ -264,4 +294,6 @@
       </div>
     </footer>
   </body>
+  <script src="js/simple-slide.js"></script>
+  <script src="js/script.js"></script>
 </html>
