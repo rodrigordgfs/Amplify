@@ -36,10 +36,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#e9204f">
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
-  <script>
-    document.documentElement.classList.add("js");
-  </script>
   <body>
     <!-- Menu -->
     <header class="header">
@@ -105,7 +105,7 @@
           <a href="#" class="button">View All</a>
         </div>
       </section>
-      <section class="services container">
+      <div class="services container">
         <div class="services_card grid-1-3">
           <p>Digitale strategy</p>
           <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
@@ -142,7 +142,7 @@
           <p>SEO Optimization</p>
           <img src="assets/icons/arrow.svg" alt="Arrow Service Card" />
         </div>
-      </section>
+      </div>
       <div class="services_separator container">
         <div class="separator"></div>
       </div>
@@ -156,7 +156,7 @@
           <a href="#" class="button">View All</a>
         </div>
       </section>
-      <section class="works container" data-slide="works">
+      <div class="works container" data-slide="works">
         <div class="works_images">
           <div class="grid-1-3">
             <img src="assets/images/work-1.png" alt="Works images" />
@@ -190,7 +190,7 @@
             <img src="assets/images/work-1.png" alt="Works images" />
           </div>
         </div>
-      </section>
+      </div>
       <div class="works_separator container">
         <div class="separator"></div>
       </div>
@@ -307,8 +307,8 @@
         </div>
       </div>
     </footer>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
   </body>
-  <script src="js/simple-slide.js"></script>
-  <script src="js/simple-anime.js"></script>
-  <script src="js/script.js"></script>
 </html>
