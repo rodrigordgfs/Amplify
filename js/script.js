@@ -11,6 +11,7 @@ if (window.SimpleAnime) {
     new SimpleAnime()
 }
 
+// Hamburguer Menu
 const btnMobile = document.getElementById('btn-mobile');
 const menu = document.getElementById('menu');
 const nav = document.getElementById('nav');
@@ -36,3 +37,14 @@ btnMobile.addEventListener('click', toogleMenu);
 btnMobile.addEventListener('touchStart', toogleMenu);
 menu.addEventListener('click', toogleItemMenu);
 menu.addEventListener('touchStart', toogleItemMenu);
+
+// Smoth scrool
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
